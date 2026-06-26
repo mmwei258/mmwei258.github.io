@@ -1,0 +1,124 @@
+﻿<asx version = "3.0" >
+  <title>世界杯赛事转播频道</title>
+
+  <!-- ===== 法国 France ===== -->
+  <entry>
+    <title>TF1</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/2650" />
+  </entry>
+  <entry>
+    <title>M6</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/1651" />
+  </entry>
+  <entry>
+    <title>RMC Sport 1</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/2318" />
+  </entry>
+  <entry>
+    <title>beIN Sports 1</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/85" />
+  </entry>
+  <!-- ===== 英国 UK ===== -->
+  <entry>
+    <title>TNT Sports 1</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/9886" />
+  </entry>
+  <entry>
+    <title>TNT Sports 2</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/9885" />
+  </entry>
+  <entry>
+    <title>TNT Sports 3</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/4193" />
+  </entry>
+  <entry>
+    <title>Sky Sports Football</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/4211" />
+  </entry>
+  <entry>
+    <title>beIN Sports 1 EN</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/4156" />
+  </entry>
+  <!-- ===== 美国 USA ===== -->
+  <entry>
+    <title>ESPN 1</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/5398" />
+  </entry>
+  <!-- ===== 意大利 Italy ===== -->
+  <entry>
+    <title>Sky Sport Football</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/265011482" />
+  </entry>
+  <entry>
+    <title>DAZN 1</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/265011504" />
+  </entry>
+  <!-- ===== 西班牙 Spain ===== -->
+  <entry>
+    <title>beIN Sports España</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/10314" />
+  </entry>
+  <!-- ===== 葡萄牙 Portugal ===== -->
+  <entry>
+    <title>Sport TV 1</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/5335" />
+  </entry>
+  <!-- ===== 德国 Germany ===== -->
+  <entry>
+    <title>DAZN 1</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/11018" />
+  </entry>
+  <!-- ===== 土耳其 Turkey ===== -->
+  <entry>
+    <title>beIN Sports 1</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/665018450" />
+  </entry>
+  <!-- ===== 中东 Middle East ===== -->
+  <entry>
+    <title>beIN MAX 1 World Cup</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/665038339" />
+  </entry>
+  <!-- ===== 卡塔尔 Qatar ===== -->
+  <entry>
+    <title>Alkass 1</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/1843" />
+  </entry>
+  <entry>
+    <title>Alkass 2</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/1841" />
+  </entry>
+  <entry>
+    <title>Alkass 3</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/2136" />
+  </entry>
+  <entry>
+    <title>Alkass 4</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/2137" />
+  </entry>
+  <entry>
+    <title>Alkass 5</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/2138" />
+  </entry>
+  <!-- ===== 阿联酋 UAE ===== -->
+  <entry>
+    <title>Abu Dhabi Sports 1</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/1897" />
+  </entry>
+  <entry>
+    <title>Abu Dhabi Sports 2</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/1869" />
+  </entry>
+  <entry>
+    <title>Abu Dhabi Sports 3</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/1990" />
+  </entry>
+  <entry>
+    <title>Abu Dhabi Sports 4</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/2678" />
+  </entry>
+  <!-- ===== 沙特 Saudi Arabia ===== -->
+  <entry>
+    <title>Saudia Sport 1</title>
+    <ref href="http://hdlocal.de:8080/eurotv/jyrDCMeEZchhnvsWWS2211/2689" />
+  </entry>
+</asx>

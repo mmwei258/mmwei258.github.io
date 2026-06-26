@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PotPlayer IPTV配置教程 — IPTV Setup Tutorial | FREE IPTV WORLD</title>
+<meta name="description" content="详细的PotPlayer和VLC IPTV配置教程。如何导入.asx/.m3u8播放列表，自动更新频道。Step-by-step IPTV setup for World Cup 2026 streaming.">
+<meta name="keywords" content="PotPlayer配置,.asx导入,IPTV教程,VLC IPTV,IPTV配置,PotPlayer IPTV,自动更新频道,世界杯直播教程">
+<link rel="canonical" href="https://mmwei258.github.io/tutorials.html">
+<link rel="alternate" hreflang="en" href="https://mmwei258.github.io/tutorials.html">
+<link rel="alternate" hreflang="zh-CN" href="https://mmwei258.github.io/tutorials.html">
+<meta property="og:title" content="PotPlayer IPTV配置教程 — IPTV Setup Tutorial">
+<meta property="og:description" content="详细的PotPlayer和VLC IPTV配置教程。如何导入.asx/.m3u8播放列表，自动更新频道。">
+<meta property="og:url" content="https://mmwei258.github.io/tutorials.html">
+<meta property="og:type" content="article">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "如何用 PotPlayer 观看世界杯直播",
+  "description": "下载 TV.asx 播放列表，导入 PotPlayer，开始观看。",
+  "step": [
+    {"@type": "HowToStep", "position": 1, "name": "下载播放列表", "text": "从资源页下载 TV.asx 文件"},
+    {"@type": "HowToStep", "position": 2, "name": "导入 PotPlayer", "text": "右键播放列表区域，选择添加文件，打开 TV.asx"},
+    {"@type": "HowToStep", "position": 3, "name": "播放频道", "text": "双击频道名称即可开始播放"}
+  ]
+}
+</script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="site-logo">FREE IPTV <span>WORLD</span></a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label">&#9776;</label>
+    <nav class="nav-menu">
+      <a href="index.html">首页 Home</a>
+      <a href="tutorials.html" class="active">教程 Tutorials</a>
+      <a href="resources.html">资源 Resources</a>
+      <a href="about.html">关于 About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+
+  <div class="page-header">
+    <h1>配置教程 <span class="lang-en">Setup Tutorials</span></h1>
+    <p>选择你的播放器，跟随步骤配置 IPTV 直播源。Windows / Mac / Linux 全覆盖。</p>
+  </div>
+
+  <!-- ====== Tab Switcher ====== -->
+  <div id="tut-tabs">
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="potplayer">PotPlayer</button>
+      <button class="tab-btn" data-tab="vlc">VLC</button>
+      <button class="tab-btn" data-tab="auto">自动更新 Auto-Update</button>
+    </div>
+
+    <!-- ====== Tab 1: PotPlayer ====== -->
+    <div class="tab-panel active" data-tab="potplayer">
+      <div class="card">
+        <p class="text-muted" style="margin-bottom:var(--space-lg)">
+          <strong>PotPlayer</strong> 是 Windows 平台最强的本地播放器，原生支持 ASX 播放列表格式。
+          以下教程将教你如何导入世界杯频道列表并开始观看。
+          <br><span class="lang-en">PotPlayer is the best media player for Windows with native ASX playlist support.</span>
+        </p>
+
+        <div class="tutorial-step">
+          <div class="tut-num">1</div>
+          <div class="tut-body">
+            <h4>下载 TV.asx 播放列表 <span class="lang-en">Download the playlist</span></h4>
+            <p>从 <a href="resources.html">资源页</a> 下载 TV.asx 文件（约 4KB）。保存到桌面或任意目录。</p>
+            <div class="tut-screenshot">[截图：浏览器下载 TV.asx 的对话框]</div>
+          </div>
+        </div>
+
+        <div class="tutorial-step">
+          <div class="tut-num">2</div>
+          <div class="tut-body">
+            <h4>打开 PotPlayer 播放列表面板 <span class="lang-en">Open the playlist panel</span></h4>
+            <p>启动 PotPlayer，在右侧播放列表面板空白处<strong>右键单击</strong>，选择 <strong>"添加文件"</strong>（或直接按 F2 键）。</p>
+            <div class="tut-screenshot">[截图：PotPlayer 右键菜单 — 添加文件]</div>
+          </div>
+        </div>
+
+        <div class="tutorial-step">
+          <div class="tut-num">3</div>
+          <div class="tut-body">
+            <h4>导入 TV.asx 文件 <span class="lang-en">Import the ASX file</span></h4>
+            <p>在弹出的文件选择对话框中，找到并选中你下载的 <strong>TV.asx</strong> 文件，点击"打开"。</p>
+            <div class="tut-screenshot">[截图：文件选择对话框，选中 TV.asx]</div>
+          </div>
+        </div>
+
+        <div class="tutorial-step">
+          <div class="tut-num">4</div>
+          <div class="tut-body">
+            <h4>频道列表加载成功 <span class="lang-en">Channels loaded</span></h4>
+            <p>播放列表面板会出现 29 个频道，按国家分组显示。可以看到频道名称和分组信息。</p>
+            <div class="tut-screenshot">[截图：PotPlayer 播放列表已加载 29 个频道，显示国家分组]</div>
+          </div>
+        </div>
+
+        <div class="tutorial-step">
+          <div class="tut-num">5</div>
+          <div class="tut-body">
+            <h4>双击播放，开始观看！ <span class="lang-en">Double-click to watch</span></h4>
+            <p>在列表中<strong>双击</strong>任意频道名称即可开始播放。等待 3-5 秒缓冲后即可观看。</p>
+            <p class="text-muted text-sm">替代方法：按 <kbd>Ctrl+U</kbd> 打开 URL 输入框，直接粘贴 M3U8 流地址。</p>
+            <div class="tut-screenshot">[截图：PotPlayer 正在播放世界杯比赛画面]</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====== Tab 2: VLC ====== -->
+    <div class="tab-panel" data-tab="vlc">
+      <div class="card">
+        <p class="text-muted" style="margin-bottom:var(--space-lg)">
+          <strong>VLC Media Player</strong> 是跨平台开源播放器，支持 Windows / macOS / Linux。
+          原生支持 M3U8 播放列表和网络流，适合导入全球 IPTV 频道列表。
+          <br><span class="lang-en">VLC is a cross-platform open-source player with native M3U8 support.</span>
+        </p>
+
+        <div class="tutorial-step">
+          <div class="tut-num">1</div>
+          <div class="tut-body">
+            <h4>下载 playlist.m3u8 <span class="lang-en">Download the playlist</span></h4>
+            <p>从 <a href="resources.html">资源页</a> 下载 playlist.m3u8（约 518KB，含 1622 个全球频道）或 TV.asx。</p>
+            <div class="tut-screenshot">[截图：浏览器下载 playlist.m3u8 文件]</div>
+          </div>
+        </div>
+
+        <div class="tutorial-step">
+          <div class="tut-num">2</div>
+          <div class="tut-body">
+            <h4>用 VLC 打开播放列表 <span class="lang-en">Open with VLC</span></h4>
+            <p>启动 VLC。菜单栏选择 <strong>媒体 → 打开文件</strong>（或按 Ctrl+O），选择 playlist.m3u8。VLC 会自动解析并加载所有频道。</p>
+            <div class="tut-screenshot">[截图：VLC 打开文件对话框]</div>
+          </div>
+        </div>
+
+        <div class="tutorial-step">
+          <div class="tut-num">3</div>
+          <div class="tut-body">
+            <h4>方法二：网络流直接播放 <span class="lang-en">Network stream method</span></h4>
+            <p>如果你只想看一个频道，可以 <strong>媒体 → 打开网络串流</strong>（Ctrl+N），粘贴单个 M3U8 地址即可。</p>
+            <div class="tut-screenshot">[截图：VLC 网络串流对话框，粘贴 URL]</div>
+          </div>
+        </div>
+
+        <div class="tutorial-step">
+          <div class="tut-num">4</div>
+          <div class="tut-body">
+            <h4>浏览和播放 <span class="lang-en">Browse and play</span></h4>
+            <p>频道会加载到播放列表中。使用 <strong>Ctrl+L</strong> 打开播放列表面板，双击频道即可观看。VLC 支持频道搜索和收藏。</p>
+            <div class="tut-screenshot">[截图：VLC 播放列表已加载，正在播放频道]</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====== Tab 3: Auto-Update ====== -->
+    <div class="tab-panel" data-tab="auto">
+      <div class="card">
+        <p class="text-muted" style="margin-bottom:var(--space-lg)">
+          <strong>自动更新脚本</strong> 可以定时从 IPTV 源仓库拉取最新频道列表，自动更新你的 TV.asx 文件。适合想保持频道列表始终最新的用户。
+          <br><span class="lang-en">Auto-update script keeps your playlist in sync with the latest channel list.</span>
+        </p>
+
+        <div class="tutorial-step">
+          <div class="tut-num">1</div>
+          <div class="tut-body">
+            <h4>下载 Update-TVList.ps1 脚本 <span class="lang-en">Download the update script</span></h4>
+            <p>PowerShell 脚本会从以下三个源拉取最新频道数据：</p>
+            <ul class="text-muted text-sm" style="padding-left:var(--space-lg);margin-bottom:var(--space-sm)">
+              <li>Free-TV/IPTV — 主播放列表</li>
+              <li>iptv-org/iptv — 全球频道</li>
+              <li>15bangjago/IPTV-Sport-New — 世界杯专用频道</li>
+            </ul>
+            <p class="text-muted text-sm">脚本会自动筛选世界杯相关的转播频道（TF1、M6、beIN Sports、TNT Sports、Sky Sports、ESPN、DAZN 等），生成 TV.asx 文件。</p>
+          </div>
+        </div>
+
+        <div class="tutorial-step">
+          <div class="tut-num">2</div>
+          <div class="tut-body">
+            <h4>运行脚本 <span class="lang-en">Run the script</span></h4>
+            <p>右键点击 Update-TVList.ps1，选择 <strong>"使用 PowerShell 运行"</strong>。或者在 PowerShell 中执行：</p>
+            <p><code style="background:var(--bg-input);padding:4px 8px;border-radius:4px;font-size:var(--text-xs);color:var(--text-accent)">cd "D:\Program Files\DAUM\PotPlayer\UrlList" ; .\Update-TVList.ps1</code></p>
+            <p class="text-muted text-sm">运行后会在当前目录生成/更新 TV.asx 文件。</p>
+          </div>
+        </div>
+
+        <div class="tutorial-step">
+          <div class="tut-num">3</div>
+          <div class="tut-body">
+            <h4>设置定时任务（可选） <span class="lang-en">Schedule auto-update</span></h4>
+            <p>Windows 任务计划程序可以每天自动运行脚本：</p>
+            <ol class="text-muted text-sm" style="padding-left:var(--space-lg)">
+              <li>打开"任务计划程序"（搜索 Task Scheduler）</li>
+              <li>创建基本任务 → 名称"IPTV频道更新"</li>
+              <li>触发器：每天一次（例如早上 9:00）</li>
+              <li>操作：启动程序 → <code>powershell.exe</code></li>
+              <li>参数：<code>-ExecutionPolicy Bypass -File "D:\...\Update-TVList.ps1"</code></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ====== FAQ ====== -->
+  <section class="faq mt-xl">
+    <h2 class="section-title">常见问题 <span class="lang-en">FAQ</span></h2>
+
+    <div class="faq-item">
+      <div class="faq-q">频道无法加载 / Channel not loading</div>
+      <div class="faq-a">
+        <p>可能的原因及解决方案：</p>
+        <ol>
+          <li><strong>网络问题</strong>：检查网络连接。部分频道服务器在欧洲，中国用户可能需要代理。</li>
+          <li><strong>频道已下线</strong>：IPTV 频道有时效性，部分频道可能已失效。下载最新播放列表即可。</li>
+          <li><strong>防火墙阻挡</strong>：Windows 防火墙或杀毒软件可能阻止 PotPlayer/VLC 联网，请在防火墙中添加例外。</li>
+          <li><strong>等待超时</strong>：首次连接可能需要 5-10 秒缓冲，请耐心等待。</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">如何切换音频语言 / How to switch audio language</div>
+      <div class="faq-a">
+        <p>beIN Sports MAX 频道为阿拉伯语解说，目前不支持音频轨道切换。如需其他语言解说，请选择对应国家的频道：</p>
+        <ul>
+          <li>英语：TNT Sports (英国)、Eurosport</li>
+          <li>法语：TF1、M6、Canal+ Sport (法国)</li>
+          <li>意大利语：Rai 1、Rai 2</li>
+          <li>德语：ARD</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">缓冲卡顿 / Buffering issues</div>
+      <div class="faq-a">
+        <p>改善缓冲的几种方法：</p>
+        <ol>
+          <li>PotPlayer：右键 → 选项 → 网络 → 增加缓冲区大小（默认 5000ms → 10000ms）</li>
+          <li>VLC：工具 → 偏好设置 → 输入/编解码器 → 网络缓存改为 10000ms</li>
+          <li>使用有线网络代替 Wi-Fi</li>
+          <li>避开高峰期（比赛开始前15分钟流量最大）</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">Mac / Linux 用户如何观看 / How to watch on Mac or Linux</div>
+      <div class="faq-a">
+        <p>推荐使用 VLC Media Player（跨平台支持）：</p>
+        <ul>
+          <li>macOS：App Store 搜索 VLC 免费下载</li>
+          <li>Linux：<code>sudo apt install vlc</code> (Ubuntu/Debian) 或 <code>sudo dnf install vlc</code> (Fedora)</li>
+          <li>下载 playlist.m3u8，用 VLC 打开即可</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">播放列表多久更新一次 / How often is the playlist updated</div>
+      <div class="faq-a">
+        <p>播放列表源（15bangjago/IPTV-Sport-New）不定期更新。我们建议：</p>
+        <ul>
+          <li>每周检查一次资源页面是否有新版本</li>
+          <li>使用自动更新脚本（Update-TVList.ps1）设置每日定时更新</li>
+          <li>世界杯期间频道通常比较稳定，不易失效</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-links">
+    <a href="index.html">首页 Home</a>
+    <a href="tutorials.html">教程 Tutorials</a>
+    <a href="resources.html">资源 Resources</a>
+    <a href="about.html">关于 About</a>
+  </div>
+  <p class="footer-disclaimer">This site is not affiliated with any broadcaster. Streams sourced from public repositories.<br>本站与任何广播公司无关。流媒体来源来自公共仓库。</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
