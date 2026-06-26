@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>更新日志 — Channel Update Log | FREE IPTV WORLD</title>
+<meta name="description" content="FREE IPTV WORLD 频道更新日志——世界杯IPTV频道新增、测试、维护记录。了解最新频道动态，订阅更新。Channel update log for World Cup IPTV streaming.">
+<meta name="keywords" content="IPTV更新日志,世界杯频道更新,IPTV channel log,频道动态,免费IPTV news,World Cup streaming updates">
+<link rel="canonical" href="https://mmwei258.github.io/blog.html">
+<link rel="alternate" hreflang="en" href="https://mmwei258.github.io/blog.html">
+<link rel="alternate" hreflang="zh-CN" href="https://mmwei258.github.io/blog.html">
+<meta property="og:title" content="更新日志 — Channel Update Log | FREE IPTV WORLD">
+<meta property="og:description" content="世界杯IPTV频道更新日志。了解最新频道动态，订阅更新。Channel update log for World Cup IPTV streaming.">
+<meta property="og:url" content="https://mmwei258.github.io/blog.html">
+<meta property="og:type" content="website">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "FREE IPTV WORLD — 频道更新日志",
+  "description": "2026世界杯免费IPTV频道更新、测试和维护记录。",
+  "url": "https://mmwei258.github.io/blog.html",
+  "blogPost": [{
+    "@type": "BlogPosting",
+    "headline": "站点正式上线 + 29 个频道全部验证通过",
+    "datePublished": "2026-06-27",
+    "description": "FREE IPTV WORLD 正式上线 GitHub Pages，29个世界杯频道全部通过ffprobe连通性测试。"
+  }]
+}
+</script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="site-logo">FREE IPTV <span>WORLD</span></a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label">&#9776;</label>
+    <nav class="nav-menu">
+      <a href="index.html">首页 Home</a>
+      <a href="tutorials.html">教程 Tutorials</a>
+      <a href="resources.html">资源 Resources</a>
+      <a href="blog.html" class="active">日志 Blog</a>
+      <a href="about.html">关于 About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <div class="page-header">
+    <h1>更新日志 <span class="lang-en">Channel Update Log</span></h1>
+    <p>频道新增、测试、维护记录。关注 <a href="https://github.com/mmwei258/mmwei258.github.io">GitHub</a> 获取即时更新通知。</p>
+  </div>
+
+  <section class="timeline">
+    <div class="timeline-entry">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">2026-06-27</div>
+      <div class="timeline-card">
+        <h3>站点正式上线 <span class="badge badge-live">NEW</span></h3>
+        <p>FREE IPTV WORLD 正式上线 GitHub Pages，提供中英双语 IPTV 导航服务。首版包含：</p>
+        <ul style="margin-top:var(--space-sm)"><li>首页：2026 世界杯免费直播指南 + 三步快速开始</li><li>教程：PotPlayer / VLC / 自动更新脚本 完整配置教程</li><li>资源：TV.asx、playlist.m3u8、CSV 数据文件下载</li><li>关于：项目介绍、Affiliate 推荐、联系方式</li></ul>
+      </div>
+    </div>
+
+    <div class="timeline-entry">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">2026-06-27</div>
+      <div class="timeline-card">
+        <h3>全部 29 个世界杯频道通过连通性测试 <span class="badge badge-tested">已验证</span></h3>
+        <p>使用 ffprobe 对所有 29 个世界杯转播频道逐一验证，全部返回有效的 MPEG-TS 实时流。测试覆盖：</p>
+        <ul style="margin-top:var(--space-sm)"><li>法国：TF1 FHD、M6 FHD、France 2/3 HD、Canal+ Sport — 5/5 通过</li><li>英国：TNT Sports 1/2、TNT Sports ESPN、Eurosport 1、Sky Sports Arena/Mix — 6/6 通过</li><li>意大利：Rai 1 HD、Rai 2 HD — 2/2 通过</li><li>德国：ARD — 1/1 通过</li><li>中东：beIN Sports MAX 1/2/3/4 World Cup — 4/4 通过</li></ul>
+      </div>
+    </div>
+
+    <div class="timeline-entry">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">2026-06-27</div>
+      <div class="timeline-card">
+        <h3>新增 beIN Sports MAX 1-4 世界杯专用频道 <span class="badge badge-hevc">HEVC</span></h3>
+        <p>从 15bangjago/IPTV-Sport-New 仓库发现 beIN Sports MAX 四路世界杯专用频道（阿拉伯语解说，1080p），全部通过 ffprobe 连通性测试。同时提供 HEVC 高压缩版本（MAX 1 World Cup HEVC），适合低带宽环境。</p>
+      </div>
+    </div>
+
+    <div class="timeline-entry">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">2026-06-27</div>
+      <div class="timeline-card">
+        <h3>播放列表格式优化 <span class="badge badge-fhd">Update</span></h3>
+        <p>TV.asx 播放列表按国家重新分组，添加中英双语注释。新增 worldcup-sources.csv 数据表文件。playlist.m3u8 同步更新来自 iptv-org 的最新数据。</p>
+      </div>
+    </div>
+
+    <div class="timeline-entry">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">2026-06-26</div>
+      <div class="timeline-card">
+        <h3>项目启动 — IPTV 频道资源摸底</h3>
+        <p>开始从多个 GitHub IPTV 仓库聚合频道资源，初步筛选出 1,622 个候选频道。着手开发频道连通性测试流程和播放列表生成脚本。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-xl">
+    <div class="card-grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))">
+      <div class="card" style="text-align:center"><div style="font-size:2.5rem">📡</div><div class="stat-value" style="margin:var(--space-sm) 0">29</div><p class="text-muted text-sm">已验证频道</p></div>
+      <div class="card" style="text-align:center"><div style="font-size:2.5rem">🌍</div><div class="stat-value" style="margin:var(--space-sm) 0">11</div><p class="text-muted text-sm">覆盖国家</p></div>
+      <div class="card" style="text-align:center"><div style="font-size:2.5rem">🗂️</div><div class="stat-value" style="margin:var(--space-sm) 0">4</div><p class="text-muted text-sm">下载格式</p></div>
+      <div class="card" style="text-align:center"><div style="font-size:2.5rem">🔄</div><div class="stat-value" style="margin:var(--space-sm) 0">每日</div><p class="text-muted text-sm">自动更新</p></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-links">
+    <a href="index.html">首页 Home</a>
+    <a href="tutorials.html">教程 Tutorials</a>
+    <a href="resources.html">资源 Resources</a>
+    <a href="blog.html">日志 Blog</a>
+    <a href="about.html">关于 About</a>
+  </div>
+  <p class="footer-disclaimer">This site is not affiliated with any broadcaster. Streams sourced from public repositories.<br>本站与任何广播公司无关。流媒体来源来自公共仓库。</p>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
